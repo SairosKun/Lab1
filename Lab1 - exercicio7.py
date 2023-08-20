@@ -1,0 +1,5 @@
+VlrTrab = float(input("Informe o valor do trabalho: "))
+VlrProva = float(input("Informe o valor da prova: "))
+VlrTeste = float(input("Informe o valor do teste: "))
+Nota = (VlrTrab * 0.1) + (VlrProva * 0.6) + (VlrTeste * 0.3)
+print("O total da nota é: " , Nota)

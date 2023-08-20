@@ -1,0 +1,8 @@
+Logradouro = input("Informe o seu endereço: ")
+NumEnd = input("Número: ")
+ComplEnd = input("Complemento: ")
+CEPEnd = input("CEP: ")
+print ("Logradouro: ", Logradouro)
+print ("Nº", NumEnd)
+print ("Complemento", ComplEnd)
+print ("CEP", CEPEnd)

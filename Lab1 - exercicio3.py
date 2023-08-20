@@ -1,0 +1,5 @@
+Nome = input ("Informe o seu nome: ")
+Altura = input ("Informe a sua altura: ")
+print (Nome)
+print (Altura)
+print ("Obrigado")

@@ -1,0 +1,5 @@
+print("Olá!")
+Nome = input("Informe o seu nome: ")
+Idade = input("Informe a sua idade: ")
+print("Nome: ", Nome)
+print("Idade: ", Idade)
