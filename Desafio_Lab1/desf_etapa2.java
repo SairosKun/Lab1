@@ -17,7 +17,7 @@ public class Principal {
 
             switch (opcao){
                 case 1:
-                sanncer.nextLine();
+                scanner.nextLine();
                 System.out.print("Nome da loja: ");
                 String nomeLoja = scanner.nextLine();
                 System.out.print("Quantidade de funcionários: ");
@@ -25,7 +25,7 @@ public class Principal {
                 scanner.nextLine();
                 System.out.print("Salário base dos funcionários: ");
                 double salarioBaseFuncionario = scanner.nextDouble();
-                sanncer.nextLine();
+                scanner.nextLine();
                 System.out.print("Nome da rua do endereço: ");
                 String nomeDaRua = scanner.nextLine();
                 System.out.print("Cidade do endereço: ");
@@ -42,9 +42,9 @@ public class Principal {
                 String complemento = scanner.nextLine();
                 System.out.print("Dia de fundação da loja: ");
                 int diaFuncacao = scanner.nextInt();
-                sanncer.nextLine();
+                scanner.nextLine();
                 System.out.print("Mes de fundação da loja: ");
-                String mesFundacao = sanncer.nextLine();
+                String mesFundacao = scanner.nextLine();
                 System.out.print("Ano de fundação da loja: ");
                 int anoFundacao = scanner.nextInt();
 
@@ -92,6 +92,6 @@ public class Principal {
             System.out.println(loja);
         }
 
-        sanncer.close();
+        scanner.close();
     }
 }
